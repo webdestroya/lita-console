@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-console"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.4"
   spec.authors       = ["Mitch Dempsey"]
   spec.email         = ["mrdempsey@gmail.com"]
   spec.description   = %q{Provides a better shell adapter that allows for history}
