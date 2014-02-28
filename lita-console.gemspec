@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-console"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["Mitch Dempsey"]
   spec.email         = ["mrdempsey@gmail.com"]
   spec.description   = %q{Provides a better shell adapter that allows for history}
@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec", ">= 3.0.0.beta2"
 
-  spec.metadata = { "lita_plugin_type" => "handler" }
+  spec.metadata = { "lita_plugin_type" => "adapter" }
 end
